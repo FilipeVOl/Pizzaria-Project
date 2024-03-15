@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url(Fonts/Lobster-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster';
+
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50em;
+    width: 100%;
+}
+.header > img {
+    height: 100%;
+    width: 100%;
+}
+.subheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.subheader > img {
+    height: 10em;
+}
+.subheader > h1 {
+    font-size: 7rem;
+}
+.desc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+.menu {
+    display: flex;
+}
+
+section {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: first baseline;
+    padding-left: 20px;
+}
+.coca1, .coca2, .fanta2, .sprite2, .guarana2, .cocalata, .calabresa_img, .quatro_img, .italiana_img, .presunto_img{
+    height: 10em;
+    width: 10em;
+}
+
+.menu > section > h3 {
+    font-size: 3rem;
+}
+
+.reserve {
+    margin-top: 5em;
+    border: 1px solid;
+    margin-bottom: 10em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+select {
+    width: 150px;
+    margin-bottom: 1em;
+}
+.reservar {
+    width: 10em;
+    height: 3em;
+}
+
+.footer {
+    background-color: #ef4444;
+    height: 30vh;
+    padding-left: 10px;
+}
+.footer > h2 {
+    font-size: 3rem;
+}
+.footer > h3 {
+    padding-bottom: 10px;
+}
+
